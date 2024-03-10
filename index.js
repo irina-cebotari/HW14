@@ -12,14 +12,14 @@ console.log(func(5, 15, 25))
 
 const str = 'here we have some text written for no reason'
 const str1 = str.replaceAll(' ', '')
-console.log(str.length)
+console.log(str1.length)
 
-const func1 = (str) => {
-    let index = Math.floor(Math.random() * 44)
-    return (str [index])
+const func1 = (str1) => {
+    let index = Math.floor(Math.random() * 36)
+    return (str1 [index])
 }
 
-console.log(func1(str))
+console.log(func1(str1))
 
 
 

@@ -12,10 +12,9 @@ console.log(func(5, 15, 25))
 
 const str = 'here we have some text written for no reason'
 const str1 = str.replaceAll(' ', '')
-console.log(str1.length)
 
 const func1 = (str1) => {
-    let index = Math.floor(Math.random() * 36)
+    let index = Math.floor(Math.random() * str1.length)
     return (str1 [index])
 }
 
